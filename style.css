@@ -1,0 +1,80 @@
+h5 {
+
+    color: white;
+
+}
+
+p {
+
+    color: ORANGE;
+    display: inline-block;
+
+}
+
+a {
+    display: inline-block;
+}
+
+
+
+header {
+
+
+    background-color: black;
+}
+
+
+#headerContainer {
+
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+}
+
+
+
+
+#footerContainer {
+
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+
+}
+
+
+body {
+
+    background-color: plum;
+    height: 500px;
+}
+
+
+
+
+footer {
+
+    background-color: purple;
+}
+
+.slide {
+    display: none;
+    background-color: white;
+    height: 200 px;
+    width: 100px;
+    position: absolute;
+    top: 500;
+    bottom: 500;
+}
